@@ -1,4 +1,4 @@
-# Date - Question Name (Difficulty)
+# 11/08/2026 - Count Servers that Communicate (Medium)
 
 ## First Thoughts
 This should be really easy by just using a loop to hit every item in the outter list and then summing every value in the inner lists to get a total number of computers per row. Then we can transpose the list and get the total amount in each column. To avoid double counting we can keep a list of the number of items in each column and then count item by item across the grid.
